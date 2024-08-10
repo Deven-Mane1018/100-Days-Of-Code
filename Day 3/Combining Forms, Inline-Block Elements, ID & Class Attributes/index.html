@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Concepts</title>
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>Welcome to My Sample Website</h1>
+    </header>
+
+    <nav>
+        <a href="#" class="nav-link">Home</a> | 
+        <a href="#" class="nav-link">About</a> | 
+        <a href="#" class="nav-link">Contact</a>
+    </nav>
+
+    <section id="about-section">
+        <h2>About This Website</h2>
+        <p>This section uses a mix of inline and block elements, and it is identified by an ID attribute.</p>
+    </section>
+
+    <section id="contact-section">
+        <h2>Contact Us</h2>
+        <form action="/submit_form" method="POST" class="contact-form">
+            <label for="contact-name">Name:</label><br>
+            <input type="text" id="contact-name" name="name" required><br><br>
+
+            <label for="contact-email">Email:</label><br>
+            <input type="email" id="contact-email" name="email" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer class="site-footer">
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+</body>
+</html>
