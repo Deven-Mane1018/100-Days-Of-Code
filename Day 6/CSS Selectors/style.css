@@ -1,0 +1,43 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Type Selector */
+h1 {
+    color: #3498db;
+    text-align: center;
+}
+
+/* Class Selector */
+.description {
+    color: #2ecc71;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* ID Selector */
+#container {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+/* Attribute Selector */
+a[href] {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+/* Pseudo-class Selector */
+.list-item:first-child {
+    font-weight: bold;
+}
+
+.list-item:last-child {
+    font-style: italic;
+}
