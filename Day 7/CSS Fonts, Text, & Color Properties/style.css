@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.highlighted-text {
+    font-family: 'Courier New', Courier, monospace;
+    color: #e74c3c;
+    font-weight: bold;
+}

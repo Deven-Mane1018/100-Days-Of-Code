@@ -1,0 +1,25 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Class styles with specificity */
+.heading {
+    color: #3498db;
+    font-size: 24px;
+}
+
+.text {
+    color: #2ecc71;
+    font-size: 18px;
+}
+
+/* Inline style example (added to show cascade) */
+.text {
+    color: #e74c3c !important;
+}
