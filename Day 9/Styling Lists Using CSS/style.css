@@ -1,0 +1,29 @@
+/* List Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.custom-list {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #007bff;
+}
+
+.custom-list li {
+    padding: 5px 0;
+}
+
+.custom-ol {
+    list-style-type: upper-roman;
+    margin-left: 20px;
+    color: #28a745;
+}
+
+.custom-ol li {
+    padding: 5px 0;
+}

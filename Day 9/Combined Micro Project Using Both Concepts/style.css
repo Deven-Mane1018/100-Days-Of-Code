@@ -1,0 +1,46 @@
+/* Combined CSS Concepts */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.list-section {
+    margin-bottom: 40px;
+}
+
+.custom-list {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #007bff;
+}
+
+.custom-list li {
+    padding: 5px 0;
+}
+
+.custom-ol {
+    list-style-type: upper-roman;
+    margin-left: 20px;
+    color: #28a745;
+}
+
+.custom-ol li {
+    padding: 5px 0;
+}
+
+.overflow-section {
+    margin-top: 20px;
+}
+
+.overflow-container {
+    width: 300px;
+    height: 150px;
+    border: 2px solid #007bff;
+    padding: 10px;
+    overflow: auto; /* Can be changed to hidden or scroll */
+    background-color: #f8f9fa;
+}
