@@ -1,0 +1,56 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.card {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 14px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 10px;
+    }
+}
