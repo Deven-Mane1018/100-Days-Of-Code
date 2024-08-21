@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.float-box {
+    width: 45%;
+    padding: 20px;
+    color: #fff;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.float-left {
+    float: left;
+    background-color: #4CAF50;
+}
+
+.float-right {
+    float: right;
+    background-color: #f44336;
+}
+
+.clear-fix {
+    clear: both;
+    background-color: #2196F3;
+    padding: 20px;
+    color: #fff;
+}
