@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item {
+    background: #3498db;
+    color: #fff;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex: 1 1 150px; /* Flex grow, shrink, and basis */
+    text-align: center;
+    border-radius: 5px;
+}
