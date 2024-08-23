@@ -7,7 +7,7 @@ body {
     background: #f4f4f4;
 }
 
-.flex-container {
+.flex-container { 
     display: flex;
     justify-content: space-around;
     align-items: center;
