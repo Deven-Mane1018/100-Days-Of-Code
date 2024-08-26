@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+
+.transition-container {
+    text-align: center;
+}
+
+.transition-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.4s, transform 0.4s;
+}
+
+.transition-button:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+}
